@@ -1,0 +1,145 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0; /* Un fondo gris claro */
+}
+.bordeado{
+    border: 15px solid rgb(255, 111, 0);
+    padding: 100px;
+    border-radius:40px ;
+}
+.oso {
+    position: relative;
+    width: 200px;
+    height: 300px;
+}
+.cabeza {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 120px;
+    height: 120px;
+    background-color: #b76b07;
+    border-radius: 50%;
+}
+.oreja {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: #b76b07;
+    border-radius: 50%;
+}
+.oreja-izquierda {
+    top: -10px;
+    left: 10px;
+}
+
+.oreja-derecha {
+    top: -10px;
+    right: 10px;
+}
+.cara {
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 60px;
+}
+.ojo {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    border-radius: 50%;
+}
+.ojo-izquierdo {
+    top: 10px;
+    left: 15px;
+}
+.ojo-derecho {
+    top: 10px;
+    right: 15px;
+}
+.nariz {
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 20px;
+    height: 15px;
+    background-color: black;
+    border-radius: 50%;
+}
+.boca {
+    position: absolute;
+    top: 45px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 30px;
+    height: 10px;
+    border-bottom: 2px solid black;
+}
+.cuerpo {
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 150px;
+    height: 180px;
+    background-color: #b76b07;
+    border-radius: 50%;
+}
+.barriga {
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 120px;
+    height: 120px;
+    background-color: #edbb7a;
+    border-radius: 50%;
+}
+.brazo {
+    position: absolute;
+    width: 50px;
+    height: 100px;
+    background-color: #b76b07;
+    border-radius: 50px;
+}
+.brazo-izquierdo {
+    top: 120px;
+    left: -20px;
+    transform: rotate(20deg);
+}
+.brazo-derecho {
+    top: 120px;
+    right: -20px;
+    transform: rotate(-20deg);
+}
+.pie {
+    position: absolute;
+    width: 60px;
+    height: 40px;
+    background-color: #b76b07;
+    border-radius: 50px;
+}
+.pie-izquierdo {
+    bottom: -10px;
+    left: 20px;
+}
+.pie-derecho {
+    bottom: -10px;
+    right: 20px;
+}
+p{
+    position: absolute;
+    top: 310px;
+    font-size: 19px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #090805;
+    text-align: center;
+}
